@@ -40,16 +40,22 @@
 .loginScreen__body {
   position: absolute;
   top: 30%;
+  /* margin-left: 0%;
+  margin-right: 0%;
+  text-align: center; */
   z-index: 1;
   color: #fff;
   padding: 20px;
 }
 .loginScreen__body > h1 {
-  font-size: 3.125rem;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 .loginScreen__body > h2 {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -61,11 +67,11 @@
   margin-top: 20px;
 }
 .loginScreen__input > form > input {
-  padding: 10px;
+  padding: 0.6rem;
   outline-width: 0;
-  height: 30px;
-  width: 30%;
-  border: none;
+  height: 31px;
+  width: 50%;
+  /* border: none; */
   max-width: 600px;
 }
 .loginScreen__getStarted {
@@ -73,7 +79,7 @@
   font-size: 1rem;
   color: #fff;
   background-color: deepskyblue;
-  border: none;
+  /* border: none; */
   font-weight: 600;
   cursor: pointer;
 }
